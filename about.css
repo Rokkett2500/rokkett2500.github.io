@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'genshin';
+  src: url(fonts/zh-cn.ttf)
+
+}
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: "genshin";
+}
+:visited {
+  background-color: #ffffff;
+  color: #e6e9dc;
+}
+html {
+  margin: auto;
+  max-width: 1366px;
+  font-size: 10px;
+  background-image: url(assets/about/anemo.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 14rem;
+  color: #ffe600;
+  background-color: rgba(0, 0, 0, 0.05)
+}
+
+
+nav .nav-brand {
+  font-size: 3rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  align-items: center;
+}
+
+nav .nav-brand a {
+  color: #e6e9dc;
+  transition: all 0.3s;
+}
+nav .nav-brand a:hover {
+  color: #a4fff7;
+}
+
+nav .nav-section {
+  display: flex;
+  align-items: center;
+}
+nav .nav-section ul {
+  list-style: none;
+}
+
+nav .nav-section ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+nav .nav-section ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #e6e9dc;
+  transition: all 0.3s;
+}
+
+nav .nav-section ul li a:hover {
+  color:#a4fff7;
+}
+nav .nav-brand:hover,
+nav .nav-section:hover {
+  color: #a4fff7;
+}
+/*nav end*/
+
+/* head */
+header {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+header .bag-satu {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+header .bag-satu .text-hello {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color:#e6e9ec;
+}
+header .bag-satu p {
+  font-size: 1.5rem;
+  font-family: 'genshin';
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+header .bag-dua {
+  flex-basis: 0%;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+header .bag-satu .tombol {
+  border-radius: 45px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+header .bag-satu .tombol:hover {
+  opacity: 70%;
+}
+
+.gambar {
+  width: 260px;
+  border-radius: 25px;
+}
+.btn-info {
+  background: #e6e9dc;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 35px 15px 35px;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-info:hover {
+  background: #ffffff;
+  text-decoration: solid;
+}
+#profil {
+  display: block;
+  margin-top: 170px;
+  border-top: 20px solid #e6e9ec;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.hai {
+  margin-top: 150px;
+  font-size: 3rem;
+  margin: auto;
+}
+p {
+  margin-top: 3rem;
+  font-family: Verdana, sans-serif;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+.aku {
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.lorem {
+  font-size: 2rem;
+  display: flex;
+  /* padding: 20px; */
+}
+
+.linkhobby {
+  text-decoration: underline;
+}
+.linkhobby:hover {
+  color: #a4fff7;
+}
